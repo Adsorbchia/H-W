@@ -19,5 +19,5 @@ else if (a==b)
 else if (b>a)
 {
     max += b;
-    Console.Write("max" + "=" + b);
+    Console.WriteLine("max" + "=" + b);
 }
