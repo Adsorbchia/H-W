@@ -8,20 +8,19 @@ int c = Convert.ToInt32(Console.ReadLine());
 
 if ((a>=b)&(a>c))
 {
-   Console.WriteLine("max" + "=" + a);
- 
+    Console.WriteLine("max" + "=" + a);
 }
+ 
 else if ((b>a) &(b>=c))
-
 {
     Console.WriteLine("max" + "=" + b);
 }
+
  else if ((c>=a)&(b<c))
-
-{
+ {
     Console.WriteLine("max" + "=" + c);
-
  }
+ 
  else if ((a==b) & (a==c))
 {
     Console.WriteLine("Все числа равны, максимального значения нет ");
